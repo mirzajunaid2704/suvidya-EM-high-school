@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #1f4037, #99f2c8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+header .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header .logo {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+/* HERO SECTION */
+.hero-blog {
+    background-color: #dff9fb;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 4px solid #1f4037;
+}
+
+.hero-blog h2 {
+    font-size: 3rem;
+    color: #1f4037;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.hero-blog p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* BLOG CONTENT */
+.blog-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.blog-post {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-left: 6px solid #1f4037;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-post:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.blog-post img.blog-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #1f4037;
+}
+
+.blog-post h3 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.blog-post h3::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #1f4037;
+    display: block;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.blog-post p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: linear-gradient(90deg, #1f4037, #99f2c8);
+    color: white;
+    padding: 20px;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
